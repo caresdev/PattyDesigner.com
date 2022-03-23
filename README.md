@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# PattyDesigner.com
+Portfolio created for Creative Designer and Social Media Specialist Patricia Marques. In this space, she highlights and promotes her most important areas of expertise, including but not limited to visual identity, website design, digital marketing, and motion design.
+>>>>>>> f9dec432cb9acf040665c74b7063cf999fcff43e
