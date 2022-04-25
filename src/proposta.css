@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family:'Calibri', sans-serif;
+}
+
+header{
+   width: 100%;
+   height: 100%;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info, .center, .bottom, text{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    height: auto;
+}
+
+.center, .bottom{
+    text-align: center;
+}
+
+.book-appointment{
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+}
+
+.title, .company, .bold{
+    font-weight: 900 !important;
+}
+
+.slogan{
+    font-style: italic;
+}
+
+.bigger{
+    font-size: 60px;
+}
+
+.experience{
+    color: grey;
+}
+
+.job-experience, .testimonial{
+    width: 25rem;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.job-images{
+    width: 400px;
+    height: 300px;
+}
