@@ -15,21 +15,28 @@ header{
 }
 
 main{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     padding: 10px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.info, .center, .bottom, text{
+.info, .center, .bottom{
     padding-top: .75rem;
     padding-bottom: .75rem;
     height: auto;
 }
 
-.center, .bottom{
+.main-divs{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: auto;
+}
+
+.center, .bottom, .center-main{
     text-align: center;
 }
 
@@ -56,12 +63,38 @@ main{
 }
 
 .job-experience, .testimonial{
-    width: 25rem;
+    width: 400px;
+    height: 600px;
     border: 1px solid black;
     padding: 40px;
+}
+
+.job-img-container{
+    width: 400px;
+    height: 300px;
 }
 
 .job-images{
     width: 400px;
     height: 300px;
+    object-fit: cover;
 }
+
+.quote{
+    width: 65px;
+    height: 65px;
+    opacity: 0.4;
+}
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-container{
+    position: relative;
+    bottom: 0%;
+}
+
