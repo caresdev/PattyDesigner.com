@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: white;
     width: 100vw;
@@ -17,8 +21,8 @@ header{
 main{
     width: 100vw;
     height: 100vh;
-    padding: 10px;
     margin-bottom: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,8 +35,10 @@ main{
 }
 
 .main-divs{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 100%;
+    box-sizing: border-box;
     height: auto;
 }
 
@@ -64,9 +70,16 @@ main{
 
 .job-experience, .testimonial{
     width: 400px;
-    height: 600px;
-    border: 1px solid black;
+    border: 2px solid rgb(217, 217, 217);
     padding: 40px;
+}
+
+.job-experience{
+    height: 400px;
+}
+
+.testimonial{
+    height: 700px;
 }
 
 .job-img-container{
@@ -77,6 +90,7 @@ main{
 .job-images{
     width: 400px;
     height: 300px;
+    box-sizing: border-box;
     object-fit: cover;
 }
 
@@ -94,7 +108,23 @@ main{
 }
 
 .profile-container{
-    position: relative;
-    bottom: 0%;
+    align-items: center;
 }
 
+.services{
+    width: 1200px;
+    margin-bottom: 45px;
+}
+
+.service-container{
+    font-size: 26px;
+    width: 360px;
+    border: 2px solid rgb(217, 217, 217);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-margin{
+    margin-right: 45px;
+}
