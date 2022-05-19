@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
 body{
-    background-color: white;
+    background-color: black;
+    color: white;
     width: 100vw;
     height: 100vh;
     font-family:'Calibri', sans-serif;
@@ -16,6 +19,27 @@ header{
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+}
+
+.title{
+    font-family: inherit;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(185, 185, 185);
+}
+
+.slogan{
+    margin-bottom: 30px;
+    font-style: italic; 
 }
 
 main{
@@ -42,7 +66,7 @@ main{
     height: auto;
 }
 
-.center, .bottom, .center-main{
+.center, .bottom{
     text-align: center;
 }
 
@@ -50,22 +74,25 @@ main{
     width: 300px;
     height: 50px;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 .title, .company, .bold{
     font-weight: 900 !important;
 }
 
-.slogan{
-    font-style: italic;
-}
-
 .bigger{
     font-size: 60px;
 }
 
+.bigger-font{
+    font-size: 18px;
+}
+
 .experience{
-    color: grey;
+    color: rgb(169, 169, 169);
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .job-experience, .testimonial{
@@ -88,10 +115,10 @@ main{
 }
 
 .job-images{
-    width: 400px;
-    height: 300px;
-    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    
 }
 
 .quote{
@@ -105,6 +132,7 @@ main{
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
+    margin-right: 30px;
 }
 
 .profile-container{
